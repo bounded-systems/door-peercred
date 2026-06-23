@@ -3,8 +3,12 @@
     "type": "name",
     "value": "Door Peercred"
   },
+  "tagline": {
+    "type": "tagline",
+    "value": "A tiny, dependency-free Rust binary that reads SOPEERCRED off a unix socket and injects the caller's UID/GID/PID into…"
+  },
   "description": {
     "type": "meta",
-    "value": "A tiny, dependency-free Rust binary that reads SOPEERCRED off a unix socket and injects the"
+    "value": "A tiny, dependency-free Rust binary that reads SOPEERCRED off a unix socket and injects the caller's UID/GID/PID into requests.  The claude-box launcher (launcherd) uses it to identify in-box callers by UID — so authority is anchored to who is calling*, not a forgeable token. …"
   }
 }
