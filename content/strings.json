@@ -1,0 +1,10 @@
+{
+  "name": {
+    "type": "name",
+    "value": "Door Peercred"
+  },
+  "description": {
+    "type": "meta",
+    "value": "A tiny, dependency-free Rust binary that reads SOPEERCRED off a unix socket and injects the"
+  }
+}
